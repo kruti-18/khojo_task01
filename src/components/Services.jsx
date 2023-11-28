@@ -13,7 +13,7 @@ function Services() {
   </div>
 
   <div className="flex flex-col w-full md:w-60 h-36 mb-8 md:mb-0">
-    <div className="heading text-xl font-bold text-center sm:text-leftr">Tax, Compliance & Payroll</div>
+    <div className="heading text-xl font-bold text-center sm:text-left">Tax, Compliance & Payroll</div>
     <div className="content pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed quidem possimus voluptatibus.</div>
   </div>
 
