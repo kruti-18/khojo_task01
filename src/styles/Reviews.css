@@ -1,0 +1,55 @@
+
+
+.gtco-testimonials {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .owl-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item {
+    padding: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  span {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
