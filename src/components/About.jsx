@@ -8,8 +8,8 @@ function About() {
     <div className='sm:flex-col'>
     <div className='AboutSection w-[80%] my-0 mx-auto flex gap-x-10 justify-around text-center items-center'>
 
-<div className='h-[100vh] w-[50%]  flex-1 flex-col'>
-    <img src={aboutImage} alt="" className='w-full h-full object-cover'/>
+<div className='h-[100vh] w-[50%]  flex-1 flex-col '>
+    <img src={aboutImage} alt="" className='w-full h-full object-cover invisible sm:visible '/>
 </div>
 
 <div className="aboutContent flex-1 mt-8 px-10">
