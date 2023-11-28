@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Footer() {
   return (
     <>
-   <footer className="footer bg-[#333333] text-white">
+   <footer className="footer bg-[#333333] text-white ">
   <div className="flex flex-col md:flex-row">
     <div className="footer-col about-us md:w-1/4">
       <h4>About us</h4>

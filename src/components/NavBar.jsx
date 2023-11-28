@@ -1,6 +1,6 @@
 // import React, {useState} from 'react'
 // import profile from '../assets/profile-user (1).png'
-// import '../styles/Navbar.css'
+import '../styles/Navbar.css'
 import searchIcon from '../assets/search.png'
 
 // function NavBar() {
@@ -98,7 +98,7 @@ function NavBar() {
     <a className="btn btn-ghost text-xl text-center ml-2">Accounting</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-1 nav-item">
       <li><a>Home</a></li>
         <li><a>About</a></li>
         <li><a>Services</a></li>
@@ -108,10 +108,10 @@ function NavBar() {
     
     </ul>
   </div>
-  <div className="navbar-end  ">
+  <div className="navbar-end">
   <div className=" bg-white mx-3 flex justify-center items-center">
   {/* <img className='h-5 w-5 mx-5 visible sm:invisible'  src={searchIcon} alt="" /> */}
-   <input type="text" placeholder="Search" className="input input-bordered bg-yellow-200 ml-1 w-24 md:w-auto invisible sm:visible "/>
+   <input type="text" placeholder="Search" className="input input-bordered bg-yellow-00 ml-1 w-24 md:w-auto invisible sm:visible "/>
      
     </div>
   </div>
