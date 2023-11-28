@@ -55,7 +55,7 @@ function Reviews() {
   ];
   return (
     <>
-<div className="reviewSection relative mb-6 md:mb-12 lg:mb-20">
+<div className="reviewSection relative mb-6 md:mb-12 lg:mb-20 ">
   <div className="overlay relative w-full h-40 md:h-[22rem] flex flex-col flex-wrap justify-center text-center opacity-80 bg-[#1BA12D] z-10">
     <h4 className="text-2xl text-center text-yellow-100 font-bold ">TESTIMONIES</h4>
     <h1 className=" font-bold text-3xl text-white text-center invisible sm:visible">Happy Clients and Feedback</h1>
@@ -67,7 +67,7 @@ function Reviews() {
           <div key={index} className="item flex-shrink-0 md:flex-shrink">
             <div className="card text-center bg-[#8fd0d2] flex flex-col">
               {/* <img className="card-img-top" src={testimonial.image} alt="" /> */}
-              <div className="card-body flex-grow">
+              <div className="card-body flex">
                 <p className="card-text text-left">{testimonial.comment}</p>
                 <div className="reviewName flex py-3 md:py-5">
                   <div className="card-img">

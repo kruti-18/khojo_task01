@@ -110,8 +110,8 @@ function NavBar() {
   </div>
   <div className="navbar-end">
   <div className=" bg-white mx-3 flex justify-center items-center">
-  {/* <img className='h-5 w-5 mx-5 visible sm:invisible'  src={searchIcon} alt="" /> */}
-   <input type="text" placeholder="Search" className="input input-bordered bg-yellow-00 ml-1 w-24 md:w-auto invisible sm:visible "/>
+  {/* <img className='h-5 w-5 mx-5 '  src={searchIcon} alt="" /> */}
+   <input type="text" placeholder="Search" className="input input-bordered bg-white ml-1 w-24 md:w-auto invisible sm:visible "/>
      
     </div>
   </div>

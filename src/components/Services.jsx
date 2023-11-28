@@ -8,22 +8,22 @@ function Services() {
  
   <div className='flex w-full md:w-[80%] my-10 mx-auto px-2 justify-around flex-wrap leading-4 '>
   <div className="flex flex-col w-full md:w-60 h-36 mb-8 md:mb-0">
-    <div className="heading text-xl font-bold text-center">Accounting</div>
+    <div className="heading text-xl font-bold text-center sm:text-left">Accounting</div>
     <div className="content pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed quidem possimus voluptatibus.</div>
   </div>
 
   <div className="flex flex-col w-full md:w-60 h-36 mb-8 md:mb-0">
-    <div className="heading text-xl font-bold text-center">Tax, Compliance & Payroll</div>
+    <div className="heading text-xl font-bold text-center sm:text-leftr">Tax, Compliance & Payroll</div>
     <div className="content pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed quidem possimus voluptatibus.</div>
   </div>
 
   <div className="flex flex-col w-full md:w-60 h-36 mb-8 md:mb-0">
-    <div className="heading text-xl font-bold text-center">Financial Services</div>
+    <div className="heading text-xl font-bold text-center sm:text-left">Financial Services</div>
     <div className="content pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed quidem possimus voluptatibus.</div>
   </div>
 
   <div className="flex flex-col w-full md:w-60 h-36 mb-8 md:mb-0">
-    <div className="heading text-xl font-bold text-center">Growth & Funding Access</div>
+    <div className="heading text-xl font-bold  text-center sm:text-left">Growth & Funding Access</div>
     <div className="content pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed quidem possimus voluptatibus.</div>
   </div>
 </div>
